@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SearchItemsComponent } from './search-items/search-items.component';
 import { ProfileComponent } from './profile/profile.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SearchItemsComponent,
-    ProfileComponent
+    ProfileComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
